@@ -1,0 +1,50 @@
+<!-- 
+    Briana Omori
+    Jan 30, 2020
+    DES 157 002: Interactive Media II - MEAD
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Function Experimentation</title>
+</head>
+<body>
+    <h1>JS Function Experimentation</h1>
+    <script>
+    /* A function that asks the user for a number and returns a thing/list of things to do in their free time. */
+    var input = prompt("Enter in one number (1-6) to generate a fun thing(s) to do in your free time.");
+    var list = ["Go to a Drive-In", "Go hiking", "See a concert", "Attend a festival", "Go to a museum of your choice", "Host a movie night"];
+
+    /* Checks if the user input is a number and if not, it asks the user to try again by refreshing the page. */
+    function user_input(input){
+        if (parseInt(input)){
+            return input;
+        }
+        else{
+            return false;
+        }
+    }
+
+    /* A function that provides a random number value */
+    function randomInt (min, max){
+        return Math.floor((max-min-1) * Math.random()) +min;
+    }
+
+    /* A function that randomly puts together a fun list of things to do based on user input*/
+    function list_generated (num){
+        user_input(input);
+        for (i=0; i<=list.length; i++){
+            if (input > 6  || !user_input(input)){
+                console.log("Please try again by refreshing the page.");
+            }
+            else{
+                console.log(list[randomInt(0,input)]);
+            }
+        }
+    }
+    list_generated(list);
+    </script>
+</body>
+</html>

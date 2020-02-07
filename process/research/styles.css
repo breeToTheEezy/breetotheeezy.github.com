@@ -1,0 +1,82 @@
+/*
+    Briana Omori
+    Interaction Design Comparative Research CSS File
+    Feb. 6, 2020
+    DES 157 002 - MEAD
+*/
+
+body {
+    background-color: #FDFDFD;
+    font-family: 'Source Sans', sans-serif;
+    padding: 15px 25px;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    color: #FF5733;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #FF5733;
+    padding-left: 250px;
+    padding-top: 25px;
+}
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(181, 181, 181);
+    padding-left: 250px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+p{
+    line-height: 1.7em;
+    padding: 10px 250px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px; 
+}
+
+figcaption {
+    text-align: center;
+    color: rgb(159, 158, 158);
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.images {
+    padding-bottom: 20px; 
+}
+
+ul, a {
+    list-style-type: none;
+}
+
+li { 
+    line-height: 1em;
+    padding: 10px 210px;
+}
+
+footer p a, a {
+    font-size: 30px;
+    text-decoration: none;
+}
+a {
+    padding: 80px;
+}
+
+a:hover {
+    color: #FF5733;
+}
+
+footer p {
+    text-align: center;
+}
+
+
