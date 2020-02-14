@@ -6,7 +6,21 @@
     <title>Timers 1</title>
 </head>
 <body>
-    
-    
+    <p><a href="#">Stop the Script!</a></p>
+    <div id="thediv">
+        <p>default content</p>
+    </div>
+    <script>
+        const myDiv = document.getElementById("thediv");
+        const content ="<p>Here is another paragraph</p>";
+
+        const timer = setInterval(function(){
+            myDiv.innerHTML += content;
+        }, 1500)
+
+        document.querySelector('a').addEventListener("click", function(){
+            clearInterval(timer);
+        });
+    </script>
 </body>
 </html>
