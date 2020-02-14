@@ -1,0 +1,88 @@
+/* 
+    Briana Omori
+    STUDIO 1: MADLIBS CSS  
+    Feb. 13, 2020 
+    WINTER 2020
+*/ 
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+div {
+    padding-top: 30px;
+    padding-left: 250px;
+}
+
+footer {
+    font-family: 'Abel', sans-serif;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+footer a { 
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+p {
+    padding-bottom: 1px;
+}
+
+.madLib-Name {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    font-family: 'Abel', sans-serif;
+    padding: 15px 30px;
+    font-size: 15px;
+    
+    /* CSS FUNCTIONALITY TO REMOVE INLINE FOR MAD LIB FORM*/    
+    display: block; 
+    margin-bottom: 20px;
+}
+
+input.button{
+    font-family: 'Abel', sans-serif;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 4px;
+    border-color: white;
+}
+
+input.button:hover {
+    color: black;
+    background-color: rgba(255, 211, 68, 0.879);
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Abel', sans-serif;
+}
+
+.invisible { 
+    display: none;
+}
+
+.visible {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    padding: 20px;
+    color: #fff;
+    background-color: #666;
+}

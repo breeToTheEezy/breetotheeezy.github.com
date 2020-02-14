@@ -1,0 +1,52 @@
+<!-- 
+    Briana Omori
+    STUDIO 1: MADLIBS HTML
+    Feb. 13, 2020
+    WINTER 2020
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS FUNCTIONALITY TO REMOVE INLINE FOR MAD LIB FORM -->
+
+    <link href="https://fonts.googleapis.com/css?family=Abel|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>MadLib</title>
+</head>
+<body>
+    <!-- FORM -->
+    <form method="myform">
+        <div>
+             <!-- MAD LIB BOXES -->
+            <h1>Ravissante Irlandaise</h1>
+            <label for="fname" class="madLib-Name">A fun way of getting to know how James Tissot created his art pieces.</label>
+            <p><input type="text" placeholder="Noun #1" id="noun1"></p>
+            <p><input type="text" placeholder="Noun #2" id="noun2"></p>
+            <p><input type="text" placeholder="Adjective" id="adjective"></p>
+            <p><input type="text" placeholder="Verb" id="verb"></p>
+            <p><input type="text" placeholder="Adverb" id="adverb"></p>
+
+            <!-- BUTTON -->
+            <input type="submit" class="button" value="Generate a MadLib">
+            <!-- <input type="image" src="images/icon.png"> to use an image as the submit button -->
+    </form>
+
+    <!-- MAD LIB STORY -->
+    <div class="invisible" id="madLibQuote">
+        <p></p>
+    </div>
+
+    <!-- JS FUNCTIONALITY FOR FORMS -->
+    <script src="script.js"></script>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML · </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+</body>
+</html>
