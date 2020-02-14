@@ -9,16 +9,16 @@
     
     document.getElementById("myForm").addEventListener("submit", function(event){
 
-        /* prevent default behavior of submitting the form */
+        /* Prevent default behavior of submitting the form */
         event.preventDefault(); 
     
-        /* collects all input values and stores into a var formData */
+        /* Collects all input values and stores into a var formData */
         var allFormInput = document.querySelectorAll("input[type=text]");
     
-        /* array to hold input values */
+        /* An array to hold input values */
         const var holdInputValues = [];
     
-        /* retrieves all input values and puts each value into inputValues array one at a time */
+        /* Retrieves all input values and puts each value into inputValues array one at a time */
         for (var i=0; i<allFormInput.length; i++){
             holdInputValues.push(allFormInput[i].value);
         }

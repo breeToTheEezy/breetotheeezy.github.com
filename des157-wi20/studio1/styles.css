@@ -5,15 +5,18 @@
     WINTER 2020
 */ 
 
+/*DOC BODY*/
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 250, 250);
 }
 
+/*CONTAINER FOR FORM CONTENT*/
 div {
     padding-top: 30px;
     padding-left: 250px;
 }
 
+/*FORMATTING FOR HTML & CSS VALIDATOR*/
 footer {
     font-family: 'Abel', sans-serif;
     padding-left: 250px;
@@ -21,19 +24,24 @@ footer {
     padding-top: 20px;
     font-size: 20px;
 }
+
+/*APPEARANCE SETTINGS FOR HTML & CSS VALIDATOR*/
 footer a { 
     text-decoration: none;
 }
 
+/*TITLE*/
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 45px;
 }
 
+/*ADJUSTS SPACING FOR FORM INPUT FIELDS*/
 p {
     padding-bottom: 1px;
 }
 
+/*MADLIB DESCRIPTION*/
 .madLib-Name {
     font-family: 'Abel', sans-serif;
     font-size: 18px;
@@ -41,10 +49,12 @@ p {
     margin-bottom: 40px;
 }
 
+/*REMOVES INLINE FORMATTING FOR MADLIB DESCRIPTION*/
 label {
     display: block;
 }
 
+/*APPEARANCE AND FORMATTING FOR INPUT FIELDS*/
 input {
     font-family: 'Abel', sans-serif;
     padding: 15px 30px;
@@ -55,6 +65,7 @@ input {
     margin-bottom: 20px;
 }
 
+/*APPEARANCE FOR MADLIB BUTTON*/
 input.button{
     font-family: 'Abel', sans-serif;
     color: #FFFFFF;
@@ -63,19 +74,23 @@ input.button{
     border-color: white;
 }
 
+/*WHEN MOUSE HOVERS OVER MADLIB BUTTON*/
 input.button:hover {
     color: black;
     background-color: rgba(255, 211, 68, 0.879);
 }
 
+/*CHANGES TEXT WITHIN BOXES*/
 ::-webkit-input-placeholder {
     font-family: 'Abel', sans-serif;
 }
 
+/*CONTENT NOT TO BE DISPLAYED UNTIL FORM IS SUBMITTED*/
 .invisible { 
     display: none;
 }
 
+/*AFTER FORM IS SUBMITTED*/
 .visible {
     display: block;
     position: absolute;
