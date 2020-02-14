@@ -5,9 +5,9 @@
     WINTER 2020
 */ 
 (function(){
-    "use script";
+    "use strict";
     
-    document.getElementById("myForm").addEventListener("submit", function(event){
+    document.getElementById("myform").addEventListener("submit", function(event){
 
         /* Prevent default behavior of submitting the form */
         event.preventDefault(); 
@@ -16,7 +16,7 @@
         var allFormInput = document.querySelectorAll("input[type=text]");
     
         /* An array to hold input values */
-        const var holdInputValues = [];
+        var holdInputValues = [];
     
         /* Retrieves all input values and puts each value into inputValues array one at a time */
         for (var i=0; i<allFormInput.length; i++){
@@ -30,13 +30,14 @@
     function generateMadLib(inputValues){
     
         /* MadLib to be outputted after form is submitted */
-        var madLibQuote = `It is ${inputValues[0]} that ${inputValues[3]} the ${inputValues[1]} by ${inputValues[2]} in a fascinating or ${inputValues[4]} fashion an object which impresses us`;
+        var madLibQuote = `It is ${inputValues[0]} that ${inputValues[3]} the ${inputValues[1]} by ${inputValues[2]} in a fascinating or ${inputValues[4]} fashion an object which impresses us 
+        <h1>James Tissot</h1>`;
     
         /* Retrieve the MadLib container */
-        const var madLibContainer = document.getElementById('madLibQuote');
+        const madLibContainer = document.getElementById('madLibQuote');
     
         /* Change the MadLib container's contents into the MadLib Quote*/            
-        madLibContainer.innerHTML = `<p>${madlibQuote}</p>`;
+        madLibContainer.innerHTML = `<p>${madLibQuote}</p>`;
     
         /* Change the class of the MadLib container so that it's visible */        
         madLibContainer.setAttribute("class", "visible");
