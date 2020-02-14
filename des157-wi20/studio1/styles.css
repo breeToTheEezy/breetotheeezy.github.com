@@ -85,6 +85,11 @@ input.button:hover {
     font-family: 'Abel', sans-serif;
 }
 
+img {
+    float: right;
+    padding-right: 350px;
+}
+
 /*CONTENT NOT TO BE DISPLAYED UNTIL FORM IS SUBMITTED*/
 .invisible { 
     display: none;
