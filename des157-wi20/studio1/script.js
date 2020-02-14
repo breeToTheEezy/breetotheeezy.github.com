@@ -30,7 +30,7 @@
     function generateMadLib(inputValues){
     
         /* MadLib to be outputted after form is submitted */
-        var madLibQuote = `It is ${inputValues[0]} that ${inputValues[3]} the ${inputValues[1]} by ${inputValues[2]} in a fascinating or ${inputValues[4]} fashion an object which impresses us 
+        var madLibQuote = `"It is ${inputValues[0]} that ${inputValues[3]} the ${inputValues[1]} by painting in a ${inputValues[2]} or ${inputValues[4]} fashion an object which impresses us"
         <h1>James Tissot</h1>`;
     
         /* Retrieve the MadLib container */
