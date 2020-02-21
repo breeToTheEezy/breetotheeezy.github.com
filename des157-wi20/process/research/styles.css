@@ -1,6 +1,6 @@
 /*
     Briana Omori
-    CSS File
+    Research CSS File
     Feb. 6, 2020
     DES 157 002 - MEAD
 */
@@ -63,13 +63,12 @@ li {
     padding: 10px 210px;
 }
 
-footer p a {
+footer p a, a {
     font-size: 30px;
     text-decoration: none;
 }
 a {
     padding: 80px;
-    font-size: 15px;
 }
 
 a:hover {
