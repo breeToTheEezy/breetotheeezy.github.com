@@ -24,6 +24,18 @@ a {
     color: grey;
 }
 
+footer p a, a {
+    font-size: 30px;
+    text-decoration: none;
+}
+a {
+    padding: 80px;
+}
+
+a:hover {
+    color: #FF5733;
+}
+
 p {
     font-size: 17px;
     color: black;
