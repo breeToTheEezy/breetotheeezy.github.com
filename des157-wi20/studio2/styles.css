@@ -4,39 +4,121 @@
     WINTER 2020 
 */
 
-body {
-    font-family: 'PT Sans', sans-serif;
-    padding-top: 100px;
-    padding-left: 200px;
-}
 
-h1 {
-    font-family: 'DM Serif Display', serif;
-}
-
-footer {
-    padding-top: 150px;
-}
-
-a {
+h1, p, div, ul, li, a {
+    margin: 0; padding: 0;
+    font-size: 17px;
+    color: black;
     text-decoration: none;
-    font-size: 20px;
-    color: grey;
-}
-
-footer p a, a {
-    font-size: 30px;
-    text-decoration: none;
-}
-a {
-    padding: 80px;
+    padding: 20px;
 }
 
 a:hover {
     color: #FF5733;
 }
 
-p {
-    font-size: 17px;
-    color: black;
+body { 
+	padding: 300px 20px;
+    font-family: 'PT Sans', sans-serif;
+	font-weight: 300;
+	font-size: 120%;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+	font-weight: 600;
+	font-size: 150%;
+}
+
+#items {
+	position: relative;
+	text-align: center;
+	padding: 0 30px;
+}
+
+#items li {
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+	width: 179px;
+	margin: auto;
+	padding: 50px 300px;
+	height: 200px;
+}
+
+#items li img {
+	position: relative;
+	pointer-events: none;
+    z-index: 400;
+}
+
+#items li.chosen img {
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	top:0;
+	margin-left: -72px;
+    transition: all .5s ease-in-out;
+}
+
+#items li.hover-chosen img {
+	width: 300px;
+	transform: scale(1.2,1.2);
+	left: 0;
+	top:-25px;
+	margin-left: 0;
+    z-index: 401;
+}
+
+#items li.hover-chosen .info {
+	opacity: 1;
+	bottom: 260px;
+	z-index: 401;
+	-webkit-transition-delay: .5s;
+	transition-delay: .5s;
+	pointer-events: all;
+}
+
+.info {
+	position: absolute;
+	pointer-events: none;
+	left: 0px;
+	bottom: 50px;
+	width: 270px;
+	z-index: 399;
+	padding-bottom: 10px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+	
+}
+
+.info-pointer {
+	width:30px;
+	height:30px;
+	transform: rotate(45deg);
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left: -15px;
+}
+
+.item-info {
+	position: relative;
+	z-index: 402;
+	padding: 10px;
+	text-align: left;
+	border-radius: 4px;
+}
+
+.fade {
+	animation: fadein 2s ease-out forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
