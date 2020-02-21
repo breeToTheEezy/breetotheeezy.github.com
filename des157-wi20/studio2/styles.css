@@ -3,3 +3,28 @@
     STUDIO 2: CSS CODE
     WINTER 2020 
 */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+}
+
+footer {
+    padding-top: 150px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+
+p {
+    font-size: 17px;
+    color: black;
+}
