@@ -5,6 +5,12 @@
     DES 157 002 - MEAD
 */
 
+#design-comp {
+    background-color: black;
+    font-family: 'Source Sans', sans-serif;
+    padding: 15px 25px;
+}
+
 body {
     background-color: #FDFDFD;
     font-family: 'Source Sans', sans-serif;
@@ -33,6 +39,7 @@ p{
 img {
     display: block;
     margin: auto;
+    padding: 50px;
 }
 
 ul, a {
@@ -47,7 +54,9 @@ li {
 footer p a, a {
     font-size: 30px;
     text-decoration: none;
+    color: white;
 }
+
 a {
     padding: 80px;
 }
