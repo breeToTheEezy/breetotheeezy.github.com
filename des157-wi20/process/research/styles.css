@@ -6,7 +6,7 @@
 */
 
 body {
-    background-color: #FDFDFD;
+    background-color: rgb(255, 255, 255);
     font-family: 'Source Sans', sans-serif;
     padding: 15px 25px;
 }
@@ -69,10 +69,11 @@ footer p a, a {
 }
 a {
     padding: 80px;
+    color: black;
 }
 
 a:hover {
-    color: #FF5733;
+    color:#FF5733;
 }
 
 footer p {

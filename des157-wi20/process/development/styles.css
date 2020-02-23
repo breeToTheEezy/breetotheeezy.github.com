@@ -59,6 +59,7 @@ footer p a, a {
 
 a {
     padding: 80px;
+    color: black;
 }
 
 a:hover {
