@@ -31,7 +31,7 @@ h2 {
     padding-top: 25px;
 }
 
-p{
+p {
     line-height: 1.7em;
     padding: 10px 250px;
 }
@@ -54,7 +54,6 @@ li {
 footer p a, a {
     font-size: 30px;
     text-decoration: none;
-    color: white;
 }
 
 a {
